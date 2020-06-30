@@ -19,6 +19,7 @@ func main() {
     router.Run()
 }
 
+// db
 type Todo struct {
     gorm.Model
     Text   string
